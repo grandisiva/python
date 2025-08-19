@@ -1,0 +1,12 @@
+def odd_list (num):
+  num_list=[]
+  for i in num:
+    if  i % 2 == 1:
+      num_list.append(i)
+  return(num_list)
+x = input("enter input with spaces ")
+x1 = x.split()
+num2_list=[]
+for i in x1:
+  num2_list.append(int(i))
+print ("odd numbers are: ", odd_list(num2_list))
