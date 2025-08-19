@@ -1,0 +1,10 @@
+def secondlargest (num):
+   num.sort()
+   return num[-2]
+
+x =  input ()
+x1 = x.replace(",", "").split()
+x2 = []
+for i in x1:
+  x2.append(int (i))
+print (secondlargest(x2))
