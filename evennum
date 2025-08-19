@@ -1,0 +1,14 @@
+def even_list (num):
+    evennum = []
+    for i in num :
+      if i % 2 == 0:
+        evennum.append(i)
+    return evennum
+
+x = input ()
+x2 = x.split()
+intnum = []
+for i in x2:
+  intnum.append(int (i))
+print ("even numbers are ")
+print (even_list(intnum))
