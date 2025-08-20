@@ -1,0 +1,11 @@
+#python script to identify  words which are more than4
+def fourletter(data):
+    data1 = []
+    for i in data:
+       if len(i) >= 4:
+          data1.append(i)
+    return (data1)
+
+x = input ()
+x = x.split()
+print (fourletter (x))
